@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg {
+  background-image: #e1f5fe;
+  background-image: radial-gradient(
+      at 39% 86%,
+      hsla(54, 100%, 89%, 1) 0,
+      transparent 38%
+    ),
+    radial-gradient(at 80% 52%, hsla(133, 77%, 76%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(208, 89%, 86%, 1) 0, transparent 50%),
+    radial-gradient(at 20% 38%, hsla(133, 77%, 76%, 1) 0, transparent 69%),
+    radial-gradient(at 20% 11%, hsla(207, 90%, 78%, 1) 0, transparent 72%);
+}
+
+.gradient-bg-login {
+  background-image: #81d4fa;
+  background-image: radial-gradient(
+      at 72% 72%,
+      hsla(207, 90%, 78%, 1) 0,
+      transparent 55%
+    ),
+    radial-gradient(at 12% 18%, hsla(213, 77%, 66%, 1) 0, transparent 100%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
